@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teaching - Julia Turner</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle navigation">&#9776;</button>
+<div class="overlay" onclick="toggleMenu()"></div>
+
+<div class="wrapper">
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="photo-placeholder">
+        <span class="initials">JT</span>
+      </div>
+      <h1><a href="index.html">Julia Turner</a></h1>
+      <p class="subtitle">PhD Student in Human Development &amp; Social Policy<br>Northwestern University</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="index.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="teaching.html" class="active">Teaching</a></li>
+    </ul>
+
+    <div class="sidebar-contact">
+      <p><a href="mailto:juliaturner@u.northwestern.edu">juliaturner@u.northwestern.edu</a></p>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <h1>Teaching</h1>
+
+    <h2>Northwestern University</h2>
+
+    <div class="teaching-entry">
+      <div class="teaching-course">Graduate Quantitative Methods III (HDSP 412)</div>
+      <div class="teaching-detail">Required Graduate Course</div>
+      <div class="teaching-role">Teaching Assistant to Ofer Malamud</div>
+      <div class="teaching-term">Spring 2023</div>
+    </div>
+
+    <div class="teaching-entry">
+      <div class="teaching-course">Graduate Quantitative Methods I (HDSP 410)</div>
+      <div class="teaching-detail">Required Graduate Course</div>
+      <div class="teaching-role">Teaching Assistant to Hannes Schwandt</div>
+      <div class="teaching-term">Fall 2022</div>
+    </div>
+
+    <div class="teaching-entry">
+      <div class="teaching-course">Introduction to Statistics and Research Methodology (SESP 210)</div>
+      <div class="teaching-detail">Required Undergraduate Course</div>
+      <div class="teaching-role">Co-Instructor with Sugat Dabholkar</div>
+      <div class="teaching-term">Spring 2022</div>
+    </div>
+
+    <div class="teaching-entry">
+      <div class="teaching-course">Economics of Health, Human Capital, and Happiness (SOCPOL 333)</div>
+      <div class="teaching-detail">Undergraduate Course</div>
+      <div class="teaching-role">Teaching Assistant to Hannes Schwandt</div>
+      <div class="teaching-term">Winter 2022, Winter 2023</div>
+    </div>
+
+  </main>
+</div>
+
+<script>
+function toggleMenu() {
+  document.querySelector('.sidebar').classList.toggle('open');
+  document.querySelector('.overlay').classList.toggle('open');
+}
+</script>
+
+</body>
+</html>
