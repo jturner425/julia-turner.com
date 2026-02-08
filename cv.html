@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Julia Turner</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle navigation">&#9776;</button>
+<div class="overlay" onclick="toggleMenu()"></div>
+
+<div class="wrapper">
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="photo-placeholder">
+        <span class="initials">JT</span>
+      </div>
+      <h1><a href="index.html">Julia Turner</a></h1>
+      <p class="subtitle">PhD Student in Human Development &amp; Social Policy<br>Northwestern University</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="index.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="cv.html" class="active">CV</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+    </ul>
+
+    <div class="sidebar-contact">
+      <p><a href="mailto:juliaturner@u.northwestern.edu">juliaturner@u.northwestern.edu</a></p>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <h1>Curriculum Vitae</h1>
+
+    <a href="CV_JTurner_Sep_2025.pdf" class="cv-download">Download CV (PDF)</a>
+
+    <div class="cv-section">
+      <h2>Education</h2>
+
+      <div class="cv-entry">
+        <div class="cv-entry-main">
+          <div class="cv-entry-title">Northwestern University</div>
+          <div class="cv-entry-detail">Ph.D. Student in Human Development and Social Policy</div>
+        </div>
+        <div class="cv-entry-date">2021 &ndash; Present</div>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-main">
+          <div class="cv-entry-title">Amherst College</div>
+          <div class="cv-entry-detail">B.A. in Economics, English (cum laude)</div>
+        </div>
+        <div class="cv-entry-date">2015 &ndash; 2019</div>
+      </div>
+    </div>
+
+    <div class="cv-section">
+      <h2>Experience</h2>
+
+      <div class="cv-entry">
+        <div class="cv-entry-main">
+          <div class="cv-entry-title">Office of the Chief Economist, Department of Education</div>
+          <div class="cv-entry-detail">PhD Intern</div>
+        </div>
+        <div class="cv-entry-date">Aug 2024 &ndash; Present</div>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-main">
+          <div class="cv-entry-title">Council of Economic Advisers</div>
+          <div class="cv-entry-detail">Staff Economist</div>
+        </div>
+        <div class="cv-entry-date">Jul 2023 &ndash; Aug 2024</div>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-main">
+          <div class="cv-entry-title">Northwestern University</div>
+          <div class="cv-entry-detail">Graduate Research Assistant (Diane Schanzenbach)</div>
+        </div>
+        <div class="cv-entry-date">Jun 2022 &ndash; Sep 2022</div>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-main">
+          <div class="cv-entry-title">Blueprint Labs at MIT</div>
+          <div class="cv-entry-detail">Pre-Doctoral Research Fellow (Josh Angrist, David Autor, Amanda Pallais)</div>
+        </div>
+        <div class="cv-entry-date">Apr 2019 &ndash; Aug 2021</div>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-main">
+          <div class="cv-entry-title">Amherst College Economics Department</div>
+          <div class="cv-entry-detail">Undergraduate Research Assistant (Jessica Reyes)</div>
+        </div>
+        <div class="cv-entry-date">Jun 2017 &ndash; Jan 2019</div>
+      </div>
+    </div>
+
+    <div class="cv-section">
+      <h2>Fellowships &amp; Awards</h2>
+
+      <div class="cv-entry">
+        <div class="cv-entry-main">
+          <div class="cv-entry-title">Federal Reserve Bank of Philadelphia</div>
+          <div class="cv-entry-detail">Consumer Finance Institute Dissertation Fellow</div>
+        </div>
+        <div class="cv-entry-date">2025 &ndash; 2026</div>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-main">
+          <div class="cv-entry-title">National Science Foundation</div>
+          <div class="cv-entry-detail">NSF Graduate Research Fellowship</div>
+        </div>
+        <div class="cv-entry-date">2021 &ndash; 2024</div>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-main">
+          <div class="cv-entry-title">Amherst College Economics Department</div>
+          <div class="cv-entry-detail">James R. Nelson Prize</div>
+        </div>
+        <div class="cv-entry-date">2019</div>
+      </div>
+
+      <div class="cv-entry">
+        <div class="cv-entry-main">
+          <div class="cv-entry-title">Amherst College Economics Department</div>
+          <div class="cv-entry-detail">Undergraduate Research Fellowship</div>
+        </div>
+        <div class="cv-entry-date">2018</div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<script>
+function toggleMenu() {
+  document.querySelector('.sidebar').classList.toggle('open');
+  document.querySelector('.overlay').classList.toggle('open');
+}
+</script>
+
+</body>
+</html>
